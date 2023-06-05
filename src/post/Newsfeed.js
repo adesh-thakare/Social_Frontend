@@ -13,6 +13,7 @@ import FindPeople from "../user/FindPeople";
 import { API } from "../backend";
 import { sendTokenToServer } from "../user/helper/userapi";
 import Menuu from "../core/Menu";
+
 const Newsfeed = () => {
   const [posts, setPosts] = useState([]);
 
